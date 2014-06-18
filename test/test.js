@@ -1,5 +1,6 @@
 var logwranglerSocket = require('../index');
 
+
 //require('./testServer');
 
 var options = {
@@ -7,7 +8,7 @@ var options = {
 	port: 9999
 };
 
-var handler = new logwranglerSocket.websocket(options);
+var handler = new logwranglerSocket.ws(options);
 setTimeout(function(){
 	var counter = 0;
 	setInterval(function(){
@@ -16,4 +17,6 @@ setTimeout(function(){
 	}, 100);
 
 }, 2000);
+
+
 

@@ -23,6 +23,7 @@
   "dependencies": {
     "lodash": "~2.4.1",
     "async": "~0.9.0",
-    "socket.io": "~1.0.4"
+    "socket.io": "~1.0.4",
+    "socket.io-client": "~1.0.4"
   }
 }
