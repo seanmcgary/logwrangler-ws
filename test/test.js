@@ -5,7 +5,9 @@ var logwranglerSocket = require('../index');
 
 var options = {
 	host: 'localhost',
-	port: 9999
+	port: 9999,
+	authenticated: true,
+	authToken: 'LOLOLOL'
 };
 
 var handler = new logwranglerSocket.ws(options);

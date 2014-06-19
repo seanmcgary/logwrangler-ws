@@ -9,6 +9,10 @@ io.on('connection', function(socket){
 		//console.log('got message');
 		console.log(data);
 	});
+
+	socket.on('some_event', function(data){
+		console.log(data);
+	});
 });
 
 io.listen(9999);
