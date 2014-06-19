@@ -1,14 +1,14 @@
 {
-  "name": "logwrangler-tcp",
+  "name": "logwrangler-ws",
   "version": "0.0.1",
-  "description": "TCP handler for Logwrangler logger",
+  "description": "WebSocket handler for Logwrangler logger",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/seanmcgary/logwrangler-tcp"
+    "url": "https://github.com/seanmcgary/logwrangler-ws"
   },
   "keywords": [
     "logwrangler",
@@ -18,7 +18,7 @@
   "author": "Sean McGary <sean@seanmcgary.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seanmcgary/logwrangler-tcp/issues"
+    "url": "https://github.com/seanmcgary/logwrangler-ws/issues"
   },
   "dependencies": {
     "lodash": "~2.4.1",
